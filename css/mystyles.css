@@ -1,1 +1,158 @@
+#Logo {
+	position: absolute;
+	width: 150px;
+	border-radius: 50%;
+	z-index: 100px;
+	left: 20px;
+	top: 5px;
+	height: 130px;
+	background: #fce6b4;
+	padding: 5px;
+}
+nav {
+	position: absolute;
+	display: flex;
+	left: 350px;
+	top: 115px;
+	width: 613px;
+	height: 40px;
+	z-index: 200px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 700;
+	border-radius: 15px;
+}
+body {
+	font-family: sans-serif;
+	}
+body,td,th {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+header {
+	position: absolute;
+	left: 20px;
+	top: 120px;
+	width: 350px;
+	z-index: 150px;
+	font-size: 14px;
+	font-style: normal;
+	font-family: "monsieurladoulaise regular";
+	text-transform: capitalize;
+}
+h1 {
+	color: maroon;
+	margin: 30px 0 50px;
+	}
+	
+	h2 {
+	color: blue;
+		}
+	h4 {
+	color: blue;
+	}
+#socials{
+	position: absolute;
+	top: 150px;
+	width: 50px;
+	
+}
+#facebookicon {
+	position: absolute;
+	top: 460px;
+	width: 20px;
+	left: 1230px
+	}
+#twittericon {
+	position: absolute;
+	top: 460px;
+	width: 20px;
+	left: 1290px
+	} 
+#facebookicon1 {
+	position: absolute;
+	top: 400px;
+	width: 20px;
+	left: 1150px
+	}
+#twittericon1 {
+	position: absolute;
+	top: 400px;
+	width: 20px;
+	left: 1210px
+	}
+#services{
+	position: absolute;
+	left: 324px;
+	top: 200px;
+	width:650px;
+	height: 280px;
+	z-index: 153px;
+}
+footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+	    top: 580px;           
+            width: 100%;
+        }
+#pics{
+	position: absolute;
+	left: 150px;
+	top: 200px;
+	z-index: 160px;
+}
 
+#Cellphone {
+	position: absolute;
+	left:1000px;
+	top: 90px;
+	width: 262px;
+	height: 152px;
+	font-weight: bold;
+	z-index: -2;
+	font-size: x-large;
+	font-style: italic;
+	text-align: center;
+	vertical-align: text-top;
+}
+
+        /* Responsive Design */
+        @media (min-width: 768px) { /* Tablet and up */
+            .main-content {
+                grid-template-columns: 1fr 2fr;
+            }
+            .blink-text {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 767px) { /* Mobile */
+            nav ul {
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+            .blink-text {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (min-width: 1024px) { /* Desktop */
+            .sidebar {
+                max-width: 300px;
+            }
+            .content {
+                max-width: 860px;
+            }
+        }
+#container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+	    bottom: 0;
+        }
